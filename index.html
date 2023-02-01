@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, Esta pagina es una tarea para el bootcamp de la UNAL">
+  <title>Cachichurris</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/1a/ff/a0/1affa0beb07d5e448a5b890acf4ffc6b.png">
+
+</head>
+<body>
+    <h1>
+      En esta pagina se van a tratar 3 secciones
+      distintas sobre los basicos del HTML y el CSS
+    </h1>
+    <h1>Esta primera seccion trata de los tags de HTML/h1>
+    <h1>Esta es una cabcecera H1</h1>
+    <h2>Esta es una cabecera H2</h2>
+    <h1>.</h1>
+    <h1>.</h1>
+    <h1>.</h1>
+    <h6>Y tenemos hasta el encabezado de titulo H6</h6>
+    <div>
+      Esto es un div, se usa para contener otros objetos,<br>
+      Pueden ser imagenes, texto, inputs, etc.
+    </div>
+    <p>Esto es un paragrafo, solo contiene texto</p>
+    <span>Esto es un span, es como un div pero divertido</span>
+    <br>
+    <label for="selectName">Esto es un label y es una etiqueta de titulo 
+      que se relaciona con la etiqueta cuyo nombre se coloque en el atributo "for"
+    </label>
+    <br>
+    <p>Y esta es la etiqueta relacionada con nuestro label,
+      es un select y su nombre es selectName</p>
+    <select name="selectName" id="selectId">
+      <option value="value1">Valor1</option>
+      <option value="value2">Valor2</option>
+      <option value="value3">Valor3</option>
+    </select>
+
+
+    <ul>Esta es una lista sin orden
+      <li>Esto es un item</li>
+      <li>esto es otro item</li>
+    </ul>
+
+    <ol>Y esto es una lista ordenada
+      <li>item 1</li>
+      <li>item 2</li>
+    </ol>
+
+    <a href="https://www.youtube.com">Y esto es un link</a>
+
+    <p>Y no pueden faltar por supuesto las imagenes</p>
+    <img 
+      src="https://cdn.pixabay.com/photo/2023/01/25/08/59/bird-7742845_960_720.jpg" 
+      alt="pelicano"
+      width="500" 
+      height="400"
+      >
+
+    <h3>
+      Nota: existen muchos otros tags, pero son mas especializados, o por ejemplo
+      se pueden armar diferentes componentes usando varios tags como un Haz clic o arrastra a esta area
+    </h3>
+    <br>
+    <h1>En esta seccion vamos a hablar de las propiedades 
+      del CSS, que es utilizado para el diseño</h1>
+    <br>
+    <div style="border: blue; border-style: solid;">Esto es un div con borde azul</div>
+    <br>
+    <div style="border: blue; border-radius: 100px;border-style: solid;">Esto es un div con borde circular azul</div>
+    <br>
+    <div style="color: tomato;">Esto es un div con letra color tomate</div>
+    <br>
+    <div style="background-color: tomato;">Esto es un div coloreado de tomate</div>
+    <br>
+    <div style="padding: 20px; background-color: blueviolet;">Esto es un div con padding de 20px</div>
+    <br>
+    <div style="margin: 20px; background-color: blueviolet;">Esto es un div con margin de 20px</div>
+    <br>
+    <h3>Nota: es clara la diferencia?</h3>
+    <br>
+    <div style="margin: 20px; background-color: blueviolet;">Esto es un div con margin de 20px</div>
+    <br>
+    <p> Este div contiene otros divs alineados centralmente</p>
+    <div style="justify-content: center;background-color: crimson; display: flex; ">
+      <div style="background-color: aqua">Div 1</div>
+      <div style="background-color: yellow;">Div 2</div>
+      <div style="background-color: green;">Div 3</div>
+    </div>
+    <p> Este div contiene otros divs alineados verticalmente</p>
+    <div style="justify-content: center;background-color: crimson; display: grid; flex-direction:column ; ">
+      <div style="background-color: aqua">Div 1</div>
+      <div style="background-color: yellow;">Div 2</div>
+      <div style="background-color: green;">Div 3</div>
+    </div>
+    <br>
+    <h3>Los ultimos dos items nos dan la entrada a la ultima seccion</h3>
+    <br>
+    <h1>Ubicacion, flex y grid.</h1>
+    <p>Volviendo a los dos ejemplos anteriores, los divs alieados al centro son con flex, y los verticales con grid.</p><br>
+    <p>Veamos que sucederia si invertimos los casos</p>
+    <div style="justify-content: center;background-color: crimson; display: grid; ">
+      <div style="background-color: aqua">Div 1</div>
+      <div style="background-color: yellow;">Div 2</div>
+      <div style="background-color: green;">Div 3</div>
+    </div>
+    <p> Este div contiene otros divs alineados verticalmente</p>
+    <div style="justify-content: center;background-color: crimson; display: flex; flex-direction:column ; ">
+      <div style="background-color: aqua">Div 1</div>
+      <div style="background-color: yellow;">Div 2</div>
+      <div style="background-color: green;">Div 3</div>
+    </div>
+    <h3>Mientras que el posicionamiento se invierte en el primer caso, en el segundo vemos como flex ocupa todo el espacio disponible <br>
+    esto sucedera siempre a menos que indiquemos su comportamiento por defecto o restrinjamos su tamano</h3>
+    <p>Siguiendo con los ejemplos miremos un caso mas.</p>
+    <p>Este div contiene elementos alineados a la derecha. Como ves se pueden ibucar de cualquier manera</p>
+    <div style="justify-content: right;background-color: crimson; display: grid; ">
+      <div style="background-color: aqua">Div 1</div>
+      <div style="background-color: yellow;">Div 2</div>
+      <div style="background-color: green;">Div 3</div>
+    </div>
+    <h3> Y por ultimo...</h3>
+    <p>Combinando flex y grid con margin y padding puedes colocar un objeto con cualquier alineamiento y posicion que desees :)</p>
+    <div style="justify-content: center;background-color: crimson; display: grid; grid-column:auto; padding-top: 10px; padding-bottom: 30px;">
+      <div style="background-color: aqua; margin-left: 50px;">Div 1</div>
+      <div style="background-color: yellow; width: 50px; margin-right: 50px;">Div 2</div>
+      <div style="background-color: green; margin-left: 50px;">Div 3</div>
+    </div>
+    
+    
+
+
+
+
+
+
+
+  
+</body>
+</html>
