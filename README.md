@@ -1,6 +1,6 @@
 # BootCamp_FrontEnd
 
-##Actividad 1
+## Actividad 1
 
 Esta es la primera actividad del bootcamp UNAL para frontend dev.
 
